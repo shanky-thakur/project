@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sugaz daddies main</title>
+    <link rel="stylesheet" href="sugaz daddies.css">
+</head>
+<body>
+    <header>
+        <h1 id="mainHeading">
+            cyber @Homies
+        </h1>
+        <img id="logo" src="logo.png" alt="sugaz daddies">
+        <h3 id="intro">
+            Welcome !
+        </h3>
+        <p id="introLines">welcome to the universe of hardwork and team work.
+            A pure effort towards learning and attaining new skills everyday.
+            We acknowledge your potential and strong will power to become a dream 
+            personality of many young enterpreneurs and budding tech chads.
+        </p>
+        <p id="p2">
+            The only thing to keep in mind is to become a part of the journey you will not regret becoming a prt of. So do fill the form out and be a premium member today.
+            But make sure to go through the terms and conditions of joining beforehead.
+        </p>
+    </header>
+    <a href="form.html" id="form1"> membership form</a>
+    <a href="terms and conditions.html" id="TnC"> terms and conditions</a>
+    <footer>
+        <div id="bottomIntro">cyber @Homies
+            <img id="bottomLogo" src="logo.png" alt="sugaz daddies">
+        </div>
+        <nav id="navigation">
+            <ul>
+                <li><a class="listElement" href="sugaz daddies member.html">log in</a></li>
+                <li><a class="listElement" href="">source code</a></li>
+                <li><a class="listElement" href="#">suggestions</a></li>
+                <li><a class="listElement" href="#">contact us</a></li>
+                <li><a class="listElement" href="#">external links</a></li>
+            </ul>
+        </nav>
+        <h4 id="creatorTag">developed with &hearts; ~ by Deepanshu Thakur,Chirag Sharma,Chirag Katiyar and Khushi Kapoor</h4>
+    </footer>
+</body>
+</html>
