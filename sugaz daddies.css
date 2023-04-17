@@ -1,0 +1,98 @@
+#mainHeading {
+    font-weight: bold;
+    font-style: oblique;
+    color: rgb(247, 242, 242);
+    font-weight: bolder;
+    text-decoration:underline;
+    background-color: black;
+    padding-left: 13em;
+    border: 2px solid rgb(248, 244, 244);
+    border-radius: 1em;
+    overflow: auto;
+    height: 44px;
+    font-size: 35px;
+}
+
+#logo {
+    float: right;
+    border: 3px solid black;
+    border-style: groove;
+    border-radius: 2em;
+}
+
+#intro {
+    font-size: 30px;
+    overflow: auto;
+}
+
+#introLines {
+    font-size: 25px;
+}
+
+#p2 {
+    font-size: 25px;
+}
+
+#form1 {
+    border: 2px solid rgb(254, 249, 249);
+    font-size: 20px;
+    background-color: black;
+    color: rgb(240, 56, 56);
+    background-size: 12em;
+    margin: 4px;
+}
+
+#TnC {
+    border: 2px solid rgb(254, 249, 249);
+    font-size: 20px;
+    background-color: black;
+    color: rgb(240, 56, 56);
+    background-size: 12em;
+}
+
+footer {
+    background-color:black;
+    height: 233px;
+    margin-top: 15px;
+    border : 6px solid rgb(212, 247, 56);
+    border-radius: 3em;
+}
+
+#bottomLogo{
+    width: 35px;
+    padding-top: 3px;
+}
+#bottomIntro{
+    font-size: 35px;
+    color:rgb(235, 80, 80);
+    padding-left:12em;
+    text-decoration: underline;
+    text-shadow:5px;
+}
+
+#navigation{
+    color:rgb(235,80,0);
+    padding-left:29em;
+}
+
+.listElement{
+    color:rgb(235,80,110);
+}
+
+#creatorTag{
+    color : rgb(242, 245, 216);
+    padding-left: 25em;
+    float:left;
+    text-decoration: underline;
+}
+
+a:hover{
+    background-color: rgb(243, 16, 16);
+    color:white;
+    cursor:pointer;
+}
+
+a:active{
+    background-color: chartreuse;
+    color:black;
+}
