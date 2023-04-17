@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Form</title>
+    <style>
+        body {
+            background-color: rgb(10, 133, 241);
+        }
+
+        .head {
+            color: red;
+            font-size: 3em;
+            float: right;
+            padding-right: 133px;
+            padding-top: 22px;
+        }
+
+        .headp {
+            padding-left: 32px;
+            text-decoration: underline;
+        }
+
+        .form {
+            padding-top: 13em;
+            margin-left: 67em;
+            line-height: 32px;
+        }
+
+        #logo {
+            float: left;
+            border: 3px solid black;
+            border-style: groove;
+            border-radius: 2em;
+            width: 490px;
+            margin-left: 232px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="head">
+        <p class="headp">Membership Portal</p>
+    </header>
+    <img id="logo" src="logo.png" alt="cyber @Homies">
+    <div class="form">
+        <form action="sheet1.xlsx">
+            <div>Name <input type="text"> </div> <br>
+            <div> email <input type="email" name="myEmail"> </div> <br>
+            <div> date of birth <input type="date"> </div><br>
+            <div><input type="checkbox"> I am not a bot</div> <br>
+            <p>
+                male <input type="radio" name="gender info">
+                female <input type="radio" name="gender info">
+                other <input type="radio" name="gender info">
+            </p> <br>
+            <div>
+                <input type="submit" value="submit now">
+            </div><br>
+            <div>
+                <input type="reset" value="reset">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
